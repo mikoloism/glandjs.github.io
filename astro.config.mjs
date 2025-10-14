@@ -65,6 +65,14 @@ export default defineConfig({
           collapsed: false,
           items: [
             {
+              label: 'Getting Started',
+              link: '/documentation/getting-started',
+            },
+            {
+              label: 'Installation',
+              link: '/documentation/installation',
+            },
+            {
               label: 'Quickstart',
               link: '/documentation/quickstart',
             },
@@ -120,8 +128,17 @@ export default defineConfig({
           items: [
             {
               label: 'Emitter',
-              link: '/packages/emitter',
-              badge: 'New',
+              collapsed: false,
+              items: [
+                {
+                  label: 'Introduction',
+                  link: '/packages/emitter',
+                },
+                {
+                  label: 'Changelog',
+                  link: '/packages/emitter/changelog',
+                },
+              ]
             },
           ],
         },
