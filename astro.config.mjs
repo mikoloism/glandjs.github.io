@@ -140,6 +140,20 @@ export default defineConfig({
                 },
               ]
             },
+            {
+              label: 'Events',
+              collapsed: false,
+              items: [
+                {
+                  label: 'Introduction',
+                  link: '/packages/events',
+                },
+                {
+                  label: 'Changelog',
+                  link: '/packages/events/changelog',
+                },
+              ]
+            },
           ],
         },
         {
